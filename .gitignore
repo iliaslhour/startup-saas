@@ -1,15 +1,23 @@
+###################
 # OS
+###################
 .DS_Store
 Thumbs.db
 
+###################
 # Logs
+###################
 *.log
 
-# Env
+###################
+# ENV (IMPORTANT)
+###################
 backend/.env
 frontend/.env
 
+###################
 # Laravel
+###################
 backend/vendor/
 backend/node_modules/
 backend/public/build/
@@ -21,13 +29,19 @@ backend/storage/framework/sessions/*
 backend/storage/framework/views/*
 backend/bootstrap/cache/*.php
 
+###################
 # Vue / Vite
+###################
 frontend/node_modules/
 frontend/dist/
 
+###################
 # IDE
+###################
 .vscode/
 .idea/
 
-# Docker local volumes
+###################
+# Docker volumes
+###################
 docker-data/
